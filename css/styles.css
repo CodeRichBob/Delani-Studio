@@ -78,3 +78,27 @@
 #product-mgt {
   display: none;
 }
+#work,
+#work1,
+#work2,
+#work3,
+#work4,
+#work5,
+#work6,
+#work7 {
+  display: none;
+  color: black;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  top: 20px;
+  left: 35px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  opacity: 0.5;
+  top: 0;
+  margin-top: -50%;
+  margin-left: 5%;
+  transition: 1s;
+}

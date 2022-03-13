@@ -33,3 +33,10 @@ $(document).ready(function(){
     });
 
 });
+$(document).ready(function () {
+	$("#portfolio").mouseover(function () {
+		$("#work").show();
+	}).mouseout(function () {
+		$("#work").hide();
+	});
+});
