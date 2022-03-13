@@ -73,3 +73,8 @@
 .delani {
   margin-top: 15px;
 }
+#design,
+#development,
+#product-mgt {
+  display: none;
+}
