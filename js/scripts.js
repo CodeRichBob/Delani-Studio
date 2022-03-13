@@ -2,29 +2,34 @@
 
 $(document).ready(function(){
     $("#design-img").click(function(event){
-        event.preventDefault();
-        $("#design, #design-img").toggle();
-        $("#design").click(function (event){
-            event.preventDefault();
-            $("#design-img, #design").toggle();
-        });
+        $("#design-img").slideDown().hide();
+        $("#design").show();
     });
+    $("#design").click(function(){
+        $("#design").slideUp();
+        $("#design-img").slideDown();
+    });
+
+    //Toggle image and text in development column of the what we do section
+    
     $("#develop-img").click(function(){
-        $("#development, #develop-img").toggle();
-        $("#development").click(function(){
-            $("#develop-img").toggle();
-            $("#development").toggle();
-        })
+        $("#develop-img").slideDown().hide();
+        $("#development").show();
     });
+    $("#development").click(function(){
+        $("#development").slideUp();
+        $("#develop-img").slideDown();
+    });
+
+    //Toggle image and text in product management column of the what we do section
+
+    $("#product-img").click(function(){
+        $("#product-img").slideDown().hide();
+        $("#product-mgt").show();
+    });
+    $("#product-mgt").click(function(){
+        $("#product-mgt").slideUp();
+        $("#product-img").slideDown();
+    });
+
 });
-
-//Toggle image and text in development column of the what we do section
-
-// $(document).ready(function(){
-//     $("#develop-img").click(function(){
-//         $("#development, #develop-img").toggle();
-//         $("#development").click(function(){
-//             $("develop-img, #development").toggle();
-//         });
-//     });
-// });
