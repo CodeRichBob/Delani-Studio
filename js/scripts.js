@@ -96,14 +96,13 @@ $(document).ready(function(){
     })
 });
 
-$(document).ready(function(event){
-    var namey = document.getElementById("name").value;
+$(document).ready(function(){
+    var namey = $('input#name').val();
     $("form").submit(function(){
-        alert(`${namey} we have received your message. Thank you for reaching out to us.` );
-       $('input[type="text"], textarea').val('');
-       $('input[type="email"], textarea').val('');
+        alert(namey + "  We have received your message. Thank you for reaching out to us.");
+
     });
-    event.preventDefault();
+    
 });
 
   
