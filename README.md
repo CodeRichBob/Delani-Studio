@@ -17,7 +17,7 @@ https:
 ## Screenshot
 
 ​
-<img src="" width="900px" height="440px">
+<img src="https://github.com/CodeRichBob/Delani-Studio/blob/master/assets/delani.png" width="900px" height="440px">
 
 ​
 
@@ -60,5 +60,5 @@ If you have any questions or contributions, please reach me at.
 ​
 
 - MIT License
-- Copyright (c) 2021 by Clan tikiti ()
+- Copyright (c) 2022 by Robert Gitonga ()
   ​
