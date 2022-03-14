@@ -60,5 +60,5 @@ If you have any questions or contributions, please reach me at.
 ​
 
 - MIT License
-- Copyright (c) 2022 by Robert Gitonga ()
+- Copyright (c) 2022 by Robert Gitonga ([LICENCE])
   ​
