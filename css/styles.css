@@ -109,3 +109,13 @@
 .contactform ::placeholder {
   color: white;
 }
+.btn {
+  background-color: transparent;
+  width: 80px;
+  font-size: 1.1em;
+  border: white solid 1px;
+  color: white;
+}
+.btn :hover {
+  background-color: aliceblue;
+}
