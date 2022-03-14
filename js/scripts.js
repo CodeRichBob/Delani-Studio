@@ -40,3 +40,58 @@ $(document).ready(function () {
 		$("#work").hide();
 	});
 });
+$(document).ready(function(){
+    $("#portfolio1").mouseover(function(){
+        $("#work1").show();
+    }).mouseout(function(){
+        $("#work1").hide();
+    })
+});
+
+$(document).ready(function(){
+    $("#portfolio2").mouseover(function(){
+        $("#work2").show();
+    }).mouseout(function(){
+        $("#work2").hide();
+    })
+});
+
+$(document).ready(function(){
+    $("#portfolio3").mouseover(function(){
+        $("#work3").show();
+    }).mouseout(function(){
+        $("#work3").hide();
+    })
+});
+
+$(document).ready(function(){
+    $("#portfolio4").mouseover(function(){
+        $("#work4").show();
+    }).mouseout(function(){
+        $("#work4").hide();
+    })
+});
+
+$(document).ready(function(){
+    $("#portfolio5").mouseover(function(){
+        $("#work5").show();
+    }).mouseout(function(){
+        $("#work5").hide();
+    })
+});
+
+$(document).ready(function(){
+    $("#portfolio6").mouseover(function(){
+        $("#work6").show();
+    }).mouseout(function(){
+        $("#work6").hide();
+    })
+});
+
+$(document).ready(function(){
+    $("#portfolio7").mouseover(function(){
+        $("#work7").show();
+    }).mouseout(function(){
+        $("#work7").hide();
+    })
+});
